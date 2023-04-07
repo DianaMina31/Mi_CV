@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.container{
+    display: flex;
+flex-direction: row;
+background-color:white;
+}
+
+#PROFILE {
+    align-items: center;
+    justify-content: center;
+}
+
+.personal_info{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    display: flex;
+flex-direction: column;
+}
+
+.Education_Experience{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    display: flex;
+flex-direction: column;
+}
+
+.contac {
+    padding: 1.5rem;
+}
+
+.personal_objetives{
+    padding: 1.5rem;
+}
+
+.HYA{
+    padding: 1.5rem;
+}
+
+.Education_Experience {
+    padding: 1.5rem;
+}
+
+.EXPERIENCIA {
+    padding: 1.5rem;
+}
+
+
+h3{
+    padding-top: 1.5rem;
+}
+
+h2 {
+    padding: 1.5rem;
+    background-color:  rgb(100, 97, 97);
+    color: white;
+justify-content: center;
+    
+}
